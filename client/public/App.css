@@ -1,0 +1,49 @@
+body{
+  text-align: center;
+  background-color:#ffcb8e;
+  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  color:#322f3d;
+}
+
+.btn {
+  margin:5px;
+	background-color:#ffcb8e;
+	border-radius:17px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Trebuchet MS;
+	font-size:22px;
+	padding:16px 21px;
+  position: relative;
+  outline:none;
+
+}
+.btn:hover {
+	background-color:#ffffff;
+}
+.btn:active {
+	position:relative;
+}
+
+.quote{
+  padding-top:50px;
+  align-content: center;
+  max-width: 850px;
+  font-family: 'Pacifico', cursive;
+  font-weight: lighter;
+}
+.name{
+  text-align: right;
+  font-family: 'Pacifico', cursive;
+}
+
+.logo{
+  height: 150px;
+  width: 250px;
+  padding-top: 30px;
+}
