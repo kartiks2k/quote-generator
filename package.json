@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "inspirational-quotes": "^1.0.8"
   },
@@ -18,5 +19,5 @@
   "license": "ISC",
   "engines": {
     "node": "12.18.2"
-}
+  }
 }
