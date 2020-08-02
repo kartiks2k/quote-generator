@@ -12,7 +12,7 @@ app.use(function(req, res, next) {
 app.use(cors());
 app.use(express.static(path.join(__dirname, "client", "build")))
 
-app.get("https://quotegenerate.herokuapp.com/",function(req,res){
+app.get("/getQuote",function(req,res){
   res.send(quote.getQuote());
 })
 
