@@ -8,10 +8,11 @@ app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   next();
 });
+
 app.use(cors());
 app.use(express.static(path.join(__dirname, "client", "build")))
 
-app.get("/",function(req,res){
+app.get("https://quotegenerate.herokuapp.com/",function(req,res){
   res.send(quote.getQuote());
 })
 
