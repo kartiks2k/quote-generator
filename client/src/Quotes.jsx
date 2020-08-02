@@ -6,7 +6,7 @@ function Quotes(){
   const [author,setAuthor]=useState("");
 
   function getQuote() {
-    axios.get("http://localhost:8000",  { crossdomain: true }).then(response => {
+    axios.get("/",  { crossdomain: true }).then(response => {
       const {text,author}=response.data;
       setText(text);
       setAuthor(author);
