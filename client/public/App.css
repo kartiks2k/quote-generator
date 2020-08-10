@@ -24,7 +24,10 @@ body{
 
 }
 .btn:hover {
-	background-color:#ffffff;
+	background-color:#fadcac;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(50, 47, 98, 0.6);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
 }
 .btn:active {
 	position:relative;
@@ -43,7 +46,7 @@ body{
 }
 
 .logo{
-  height: 150px;
-  width: 250px;
+  max-height: 150px;
+  max-width: 250px;
   padding-top: 30px;
 }
